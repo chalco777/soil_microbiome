@@ -1,0 +1,7 @@
+eggnog_abundance_new/Maaslin*/
+eggnog_abundance_new/results_differential_2.0/Maaslin*/
+*.tsv
+*.RData
+*.tmp
+*.Rhistory
+

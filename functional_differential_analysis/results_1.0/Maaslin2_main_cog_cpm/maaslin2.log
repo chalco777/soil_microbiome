@@ -1,0 +1,143 @@
+2024-11-17 13:33:06.055948 INFO::Writing function arguments to log file
+2024-11-17 13:33:06.096651 DEBUG::Function arguments
+2024-11-17 13:33:06.099281 DEBUG::Output folder: Maaslin2_main_cog_cpm
+2024-11-17 13:33:06.101681 DEBUG::Min Abundance: 0.000000
+2024-11-17 13:33:06.103705 DEBUG::Min Prevalence: 0.200000
+2024-11-17 13:33:06.105092 DEBUG::Normalization: TSS
+2024-11-17 13:33:06.107603 DEBUG::Transform: NONE
+2024-11-17 13:33:06.108881 DEBUG::Analysis method: LM
+2024-11-17 13:33:06.111276 DEBUG::Max significance: 0.250000
+2024-11-17 13:33:06.11259 DEBUG::Random effects:
+2024-11-17 13:33:06.114306 DEBUG::Fixed effects: name
+2024-11-17 13:33:06.115556 DEBUG::Correction method: BH
+2024-11-17 13:33:06.117237 DEBUG::Standardize: TRUE
+2024-11-17 13:33:06.118948 DEBUG::Cores: 1
+2024-11-17 13:33:06.120575 INFO::Verifying options selected are valid
+2024-11-17 13:33:06.131773 INFO::Determining format of input files
+2024-11-17 13:33:06.138139 INFO::Input format is data samples as rows and metadata samples as rows
+2024-11-17 13:33:06.143374 DEBUG::A total of 13 samples were found in both the data and metadata
+2024-11-17 13:33:06.145709 DEBUG::Reordering data/metadata to use same sample ordering
+2024-11-17 13:33:06.158575 INFO::Formula for fixed effects: expr ~  name
+2024-11-17 13:33:06.174416 INFO::Filter data based on min abundance and min prevalence
+2024-11-17 13:33:06.179139 INFO::Total samples in data: 13
+2024-11-17 13:33:06.183636 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2024-11-17 13:33:06.206921 INFO::Total filtered features: 47
+2024-11-17 13:33:06.213684 INFO::Filtered feature names from abundance and prevalence filtering: HI, VW, AK, BDLTU, EO, GP, HJM, JK, DKT, DPT, EGM, EV, GN, GV, JL, MO, MOP, MQ, Z, EKT, GL, KOT, QV, DO, HO, LO, MOV, NQ, OP, TZ, EIP, TV, FK, IMO, KTV, LM, EFGP, CET, MUW, DT, KLOT, LP, EGHP, CDZ, EGIPQ, GJM, JT
+2024-11-17 13:33:06.23642 INFO::Total filtered features with variance filtering: 0
+2024-11-17 13:33:06.241101 INFO::Filtered feature names from variance filtering:
+2024-11-17 13:33:06.244651 INFO::Running selected normalization method: TSS
+2024-11-17 13:33:06.263594 INFO::Applying z-score to standardize continuous metadata
+2024-11-17 13:33:06.294006 INFO::Running selected transform method: NONE
+2024-11-17 13:33:06.2985 INFO::Running selected analysis method: LM
+2024-11-17 13:33:06.315148 INFO::Fitting model to feature number 1, A
+2024-11-17 13:33:06.364567 INFO::Fitting model to feature number 2, B
+2024-11-17 13:33:06.379071 INFO::Fitting model to feature number 3, BQ
+2024-11-17 13:33:06.391422 INFO::Fitting model to feature number 4, C
+2024-11-17 13:33:06.40367 INFO::Fitting model to feature number 5, CE
+2024-11-17 13:33:06.416037 INFO::Fitting model to feature number 6, CG
+2024-11-17 13:33:06.430032 INFO::Fitting model to feature number 7, CH
+2024-11-17 13:33:06.442632 INFO::Fitting model to feature number 8, CK
+2024-11-17 13:33:06.455858 INFO::Fitting model to feature number 9, CO
+2024-11-17 13:33:06.472501 INFO::Fitting model to feature number 10, CP
+2024-11-17 13:33:06.487995 INFO::Fitting model to feature number 11, D
+2024-11-17 13:33:06.502726 INFO::Fitting model to feature number 12, DJ
+2024-11-17 13:33:06.515141 INFO::Fitting model to feature number 13, DM
+2024-11-17 13:33:06.527714 INFO::Fitting model to feature number 14, DZ
+2024-11-17 13:33:06.541115 INFO::Fitting model to feature number 15, E
+2024-11-17 13:33:06.558632 INFO::Fitting model to feature number 16, EF
+2024-11-17 13:33:06.573841 INFO::Fitting model to feature number 17, EG
+2024-11-17 13:33:06.59158 INFO::Fitting model to feature number 18, EGP
+2024-11-17 13:33:06.614649 INFO::Fitting model to feature number 19, EH
+2024-11-17 13:33:06.632527 INFO::Fitting model to feature number 20, EI
+2024-11-17 13:33:06.64608 INFO::Fitting model to feature number 21, EK
+2024-11-17 13:33:06.658462 INFO::Fitting model to feature number 22, EM
+2024-11-17 13:33:06.673322 INFO::Fitting model to feature number 23, EP
+2024-11-17 13:33:06.687033 INFO::Fitting model to feature number 24, ET
+2024-11-17 13:33:06.705519 INFO::Fitting model to feature number 25, EU
+2024-11-17 13:33:06.73364 INFO::Fitting model to feature number 26, F
+2024-11-17 13:33:06.74861 INFO::Fitting model to feature number 27, FG
+2024-11-17 13:33:06.769286 INFO::Fitting model to feature number 28, FP
+2024-11-17 13:33:06.785252 INFO::Fitting model to feature number 29, G
+2024-11-17 13:33:06.801864 INFO::Fitting model to feature number 30, GH
+2024-11-17 13:33:06.825289 INFO::Fitting model to feature number 31, GM
+2024-11-17 13:33:06.842338 INFO::Fitting model to feature number 32, GT
+2024-11-17 13:33:06.863799 INFO::Fitting model to feature number 33, H
+2024-11-17 13:33:06.879951 INFO::Fitting model to feature number 34, HJ
+2024-11-17 13:33:06.902846 INFO::Fitting model to feature number 35, HL
+2024-11-17 13:33:06.917219 INFO::Fitting model to feature number 36, HP
+2024-11-17 13:33:06.929187 INFO::Fitting model to feature number 37, I
+2024-11-17 13:33:06.942959 INFO::Fitting model to feature number 38, IK
+2024-11-17 13:33:06.952744 INFO::Fitting model to feature number 39, IM
+2024-11-17 13:33:06.972087 INFO::Fitting model to feature number 40, IQ
+2024-11-17 13:33:06.993343 INFO::Fitting model to feature number 41, IT
+2024-11-17 13:33:07.010436 INFO::Fitting model to feature number 42, J
+2024-11-17 13:33:07.027284 INFO::Fitting model to feature number 43, JKL
+2024-11-17 13:33:07.043585 INFO::Fitting model to feature number 44, JM
+2024-11-17 13:33:07.071549 INFO::Fitting model to feature number 45, K
+2024-11-17 13:33:07.096594 INFO::Fitting model to feature number 46, KL
+2024-11-17 13:33:07.198256 INFO::Fitting model to feature number 47, KLT
+2024-11-17 13:33:07.22585 INFO::Fitting model to feature number 48, KLTU
+2024-11-17 13:33:07.249002 INFO::Fitting model to feature number 49, KO
+2024-11-17 13:33:07.270783 INFO::Fitting model to feature number 50, KT
+2024-11-17 13:33:07.292413 INFO::Fitting model to feature number 51, KU
+2024-11-17 13:33:07.314442 INFO::Fitting model to feature number 52, L
+2024-11-17 13:33:07.329178 INFO::Fitting model to feature number 53, M
+2024-11-17 13:33:07.349625 INFO::Fitting model to feature number 54, MU
+2024-11-17 13:33:07.36784 INFO::Fitting model to feature number 55, N
+2024-11-17 13:33:07.382746 INFO::Fitting model to feature number 56, NOU
+2024-11-17 13:33:07.403291 INFO::Fitting model to feature number 57, NPTU
+2024-11-17 13:33:07.420942 INFO::Fitting model to feature number 58, NT
+2024-11-17 13:33:07.439495 INFO::Fitting model to feature number 59, NU
+2024-11-17 13:33:07.457583 INFO::Fitting model to feature number 60, O
+2024-11-17 13:33:07.476181 INFO::Fitting model to feature number 61, OU
+2024-11-17 13:33:07.504545 INFO::Fitting model to feature number 62, P
+2024-11-17 13:33:07.521598 INFO::Fitting model to feature number 63, Q
+2024-11-17 13:33:07.537083 INFO::Fitting model to feature number 64, QT
+2024-11-17 13:33:07.549333 INFO::Fitting model to feature number 65, S
+2024-11-17 13:33:07.564556 INFO::Fitting model to feature number 66, T
+2024-11-17 13:33:07.577453 INFO::Fitting model to feature number 67, U
+2024-11-17 13:33:07.604209 INFO::Fitting model to feature number 68, UW
+2024-11-17 13:33:07.628931 INFO::Fitting model to feature number 69, V
+2024-11-17 13:33:07.671953 INFO::Fitting model to feature number 70, CEH
+2024-11-17 13:33:07.701248 INFO::Fitting model to feature number 71, CI
+2024-11-17 13:33:07.727931 INFO::Fitting model to feature number 72, CJ
+2024-11-17 13:33:07.743482 INFO::Fitting model to feature number 73, CM
+2024-11-17 13:33:07.75836 INFO::Fitting model to feature number 74, CQ
+2024-11-17 13:33:07.768606 INFO::Fitting model to feature number 75, CT
+2024-11-17 13:33:07.779622 INFO::Fitting model to feature number 76, EQ
+2024-11-17 13:33:07.792334 INFO::Fitting model to feature number 77, FJ
+2024-11-17 13:33:07.800385 INFO::Fitting model to feature number 78, GK
+2024-11-17 13:33:07.814478 INFO::Fitting model to feature number 79, GQ
+2024-11-17 13:33:07.823183 INFO::Fitting model to feature number 80, HK
+2024-11-17 13:33:07.83227 INFO::Fitting model to feature number 81, IU
+2024-11-17 13:33:07.845736 INFO::Fitting model to feature number 82, KNT
+2024-11-17 13:33:07.854393 INFO::Fitting model to feature number 83, LU
+2024-11-17 13:33:07.866912 INFO::Fitting model to feature number 84, PT
+2024-11-17 13:33:07.878409 INFO::Fitting model to feature number 85, QU
+2024-11-17 13:33:07.890657 INFO::Fitting model to feature number 86, FH
+2024-11-17 13:33:07.902466 INFO::Fitting model to feature number 87, FL
+2024-11-17 13:33:07.91486 INFO::Fitting model to feature number 88, HQ
+2024-11-17 13:33:07.926752 INFO::Fitting model to feature number 89, KQ
+2024-11-17 13:33:07.937747 INFO::Fitting model to feature number 90, OQ
+2024-11-17 13:33:07.949344 INFO::Fitting model to feature number 91, OT
+2024-11-17 13:33:07.961015 INFO::Fitting model to feature number 92, PQ
+2024-11-17 13:33:07.9736 INFO::Fitting model to feature number 93, DTZ
+2024-11-17 13:33:07.987442 INFO::Fitting model to feature number 94, EJ
+2024-11-17 13:33:08.004067 INFO::Fitting model to feature number 95, KMT
+2024-11-17 13:33:08.016921 INFO::Fitting model to feature number 96, KP
+2024-11-17 13:33:08.029885 INFO::Fitting model to feature number 97, LT
+2024-11-17 13:33:08.039861 INFO::Fitting model to feature number 98, MNO
+2024-11-17 13:33:08.050713 INFO::Fitting model to feature number 99, MT
+2024-11-17 13:33:08.062314 INFO::Fitting model to feature number 100, MV
+2024-11-17 13:33:08.127686 INFO::Counting total values for each feature
+2024-11-17 13:33:08.153607 INFO::Writing filtered data to file Maaslin2_main_cog_cpm/features/filtered_data.tsv
+2024-11-17 13:33:08.165478 INFO::Writing filtered, normalized data to file Maaslin2_main_cog_cpm/features/filtered_data_norm.tsv
+2024-11-17 13:33:08.176229 INFO::Writing filtered, normalized, transformed data to file Maaslin2_main_cog_cpm/features/filtered_data_norm_transformed.tsv
+2024-11-17 13:33:08.188225 WARNING::Deleting existing residuals file: Maaslin2_main_cog_cpm/fits/residuals.rds
+2024-11-17 13:33:08.194761 INFO::Writing residuals to file Maaslin2_main_cog_cpm/fits/residuals.rds
+2024-11-17 13:33:08.203827 WARNING::Deleting existing fitted file: Maaslin2_main_cog_cpm/fits/fitted.rds
+2024-11-17 13:33:08.208725 INFO::Writing fitted values to file Maaslin2_main_cog_cpm/fits/fitted.rds
+2024-11-17 13:33:08.215752 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_main_cog_cpm/all_results.tsv
+2024-11-17 13:33:08.228177 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_main_cog_cpm/significant_results.tsv
+2024-11-17 13:33:08.23442 INFO::Writing heatmap of significant results to file: Maaslin2_main_cog_cpm/heatmap.pdf
+2024-11-17 13:33:08.245555 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_main_cog_cpm

@@ -1,0 +1,65 @@
+2025-01-08 10:32:53.243354 INFO::Writing function arguments to log file
+2025-01-08 10:32:53.246335 DEBUG::Function arguments
+2025-01-08 10:32:53.247327 DEBUG::Output folder: Maaslin2_virus_cog_cpm
+2025-01-08 10:32:53.248361 DEBUG::Min Abundance: 0.000000
+2025-01-08 10:32:53.249405 DEBUG::Min Prevalence: 0.200000
+2025-01-08 10:32:53.250441 DEBUG::Normalization: TSS
+2025-01-08 10:32:53.251977 DEBUG::Transform: LOG
+2025-01-08 10:32:53.254664 DEBUG::Analysis method: LM
+2025-01-08 10:32:53.25583 DEBUG::Max significance: 0.250000
+2025-01-08 10:32:53.257056 DEBUG::Random effects:
+2025-01-08 10:32:53.258078 DEBUG::Fixed effects: name
+2025-01-08 10:32:53.259306 DEBUG::Correction method: BH
+2025-01-08 10:32:53.260454 DEBUG::Standardize: TRUE
+2025-01-08 10:32:53.26185 DEBUG::Cores: 1
+2025-01-08 10:32:53.262867 INFO::Verifying options selected are valid
+2025-01-08 10:32:53.265473 INFO::Determining format of input files
+2025-01-08 10:32:53.270209 INFO::Input format is data samples as rows and metadata samples as rows
+2025-01-08 10:32:53.275011 DEBUG::A total of 13 samples were found in both the data and metadata
+2025-01-08 10:32:53.276266 DEBUG::Reordering data/metadata to use same sample ordering
+2025-01-08 10:32:53.278041 INFO::Formula for fixed effects: expr ~  name
+2025-01-08 10:32:53.280992 INFO::Filter data based on min abundance and min prevalence
+2025-01-08 10:32:53.283268 INFO::Total samples in data: 13
+2025-01-08 10:32:53.286427 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2025-01-08 10:32:53.291058 INFO::Total filtered features: 9
+2025-01-08 10:32:53.295103 INFO::Filtered feature names from abundance and prevalence filtering: UW, HL, NT, MP, MU, I, EH, GM, MV
+2025-01-08 10:32:53.298074 INFO::Total filtered features with variance filtering: 0
+2025-01-08 10:32:53.300462 INFO::Filtered feature names from variance filtering:
+2025-01-08 10:32:53.305185 INFO::Running selected normalization method: TSS
+2025-01-08 10:32:53.308074 INFO::Applying z-score to standardize continuous metadata
+2025-01-08 10:32:53.313248 INFO::Running selected transform method: LOG
+2025-01-08 10:32:53.316251 INFO::Running selected analysis method: LM
+2025-01-08 10:32:53.323208 INFO::Fitting model to feature number 1, D
+2025-01-08 10:32:53.331371 INFO::Fitting model to feature number 2, G
+2025-01-08 10:32:53.342694 INFO::Fitting model to feature number 3, J
+2025-01-08 10:32:53.349657 INFO::Fitting model to feature number 4, K
+2025-01-08 10:32:53.357764 INFO::Fitting model to feature number 5, KT
+2025-01-08 10:32:53.365899 INFO::Fitting model to feature number 6, L
+2025-01-08 10:32:53.374245 INFO::Fitting model to feature number 7, M
+2025-01-08 10:32:53.381426 INFO::Fitting model to feature number 8, NU
+2025-01-08 10:32:53.391438 INFO::Fitting model to feature number 9, O
+2025-01-08 10:32:53.398698 INFO::Fitting model to feature number 10, OU
+2025-01-08 10:32:53.407098 INFO::Fitting model to feature number 11, Q
+2025-01-08 10:32:53.41492 INFO::Fitting model to feature number 12, S
+2025-01-08 10:32:53.424382 INFO::Fitting model to feature number 13, U
+2025-01-08 10:32:53.431703 INFO::Fitting model to feature number 14, KL
+2025-01-08 10:32:53.4413 INFO::Fitting model to feature number 15, V
+2025-01-08 10:32:53.448337 INFO::Fitting model to feature number 16, E
+2025-01-08 10:32:53.458699 INFO::Fitting model to feature number 17, H
+2025-01-08 10:32:53.46563 INFO::Fitting model to feature number 18, N
+2025-01-08 10:32:53.473945 INFO::Fitting model to feature number 19, P
+2025-01-08 10:32:53.480621 INFO::Fitting model to feature number 20, T
+2025-01-08 10:32:53.489057 INFO::Fitting model to feature number 21, C
+2025-01-08 10:32:53.495705 INFO::Fitting model to feature number 22, F
+2025-01-08 10:32:53.51066 INFO::Counting total values for each feature
+2025-01-08 10:32:53.515127 INFO::Writing filtered data to file Maaslin2_virus_cog_cpm/features/filtered_data.tsv
+2025-01-08 10:32:53.522169 INFO::Writing filtered, normalized data to file Maaslin2_virus_cog_cpm/features/filtered_data_norm.tsv
+2025-01-08 10:32:53.527302 INFO::Writing filtered, normalized, transformed data to file Maaslin2_virus_cog_cpm/features/filtered_data_norm_transformed.tsv
+2025-01-08 10:32:53.533305 WARNING::Deleting existing residuals file: Maaslin2_virus_cog_cpm/fits/residuals.rds
+2025-01-08 10:32:53.541749 INFO::Writing residuals to file Maaslin2_virus_cog_cpm/fits/residuals.rds
+2025-01-08 10:32:53.545059 WARNING::Deleting existing fitted file: Maaslin2_virus_cog_cpm/fits/fitted.rds
+2025-01-08 10:32:53.548959 INFO::Writing fitted values to file Maaslin2_virus_cog_cpm/fits/fitted.rds
+2025-01-08 10:32:53.55779 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_virus_cog_cpm/all_results.tsv
+2025-01-08 10:32:53.582059 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_virus_cog_cpm/significant_results.tsv
+2025-01-08 10:32:53.588386 INFO::Writing heatmap of significant results to file: Maaslin2_virus_cog_cpm/heatmap.pdf
+2025-01-08 10:32:53.595299 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_virus_cog_cpm

@@ -1,0 +1,92 @@
+2025-01-07 09:36:22.490824 INFO::Writing function arguments to log file
+2025-01-07 09:36:22.493502 DEBUG::Function arguments
+2025-01-07 09:36:22.494499 DEBUG::Output folder: Maaslin2tt_virus_pathways_cpm
+2025-01-07 09:36:22.496442 DEBUG::Min Abundance: 0.000000
+2025-01-07 09:36:22.498223 DEBUG::Min Prevalence: 0.200000
+2025-01-07 09:36:22.499213 DEBUG::Normalization: TSS
+2025-01-07 09:36:22.500208 DEBUG::Transform: LOG
+2025-01-07 09:36:22.501283 DEBUG::Analysis method: LM
+2025-01-07 09:36:22.502412 DEBUG::Max significance: 0.250000
+2025-01-07 09:36:22.50374 DEBUG::Random effects:
+2025-01-07 09:36:22.505464 DEBUG::Fixed effects: name
+2025-01-07 09:36:22.50661 DEBUG::Correction method: BH
+2025-01-07 09:36:22.50767 DEBUG::Standardize: TRUE
+2025-01-07 09:36:22.508999 DEBUG::Cores: 1
+2025-01-07 09:36:22.509985 INFO::Verifying options selected are valid
+2025-01-07 09:36:22.513433 INFO::Determining format of input files
+2025-01-07 09:36:22.516295 INFO::Input format is data samples as rows and metadata samples as rows
+2025-01-07 09:36:22.519375 DEBUG::A total of 13 samples were found in both the data and metadata
+2025-01-07 09:36:22.520729 DEBUG::Reordering data/metadata to use same sample ordering
+2025-01-07 09:36:22.523504 INFO::Formula for fixed effects: expr ~  name
+2025-01-07 09:36:22.527131 INFO::Filter data based on min abundance and min prevalence
+2025-01-07 09:36:22.531903 INFO::Total samples in data: 13
+2025-01-07 09:36:22.534302 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2025-01-07 09:36:22.539126 INFO::Total filtered features: 118
+2025-01-07 09:36:22.542817 INFO::Filtered feature names from abundance and prevalence filtering: ko00500, ko00521, ko03060, ko05134, map00500, map00521, map03060, map05134, ko00525, ko01055, ko05133, map00525, map01055, map05133, ko00140, ko00600, ko00760, ko02020, ko02025, map00140, map00600, map00760, map02020, map02025, ko00250, ko00330, ko00360, ko00940, ko00941, ko00945, ko05100, map00250, map00330, map00360, map00940, map00941, map00945, map05100, ko00540, ko00770, ko02026, ko03013, ko05111, ko05340, map00540, map00770, map02026, map03013, map05111, map05340, ko00010, ko00020, ko00280, ko00640, ko04066, ko04122, ko04138, ko04721, ko04727, ko04922, ko04962, ko05230, map00010, map00020, map00280, map00640, map04066, map04122, map04138, map04721, map04727, map04922, map04962, map05230, ko00071, ko00310, ko00362, ko00380, map00071, map00310, map00362, map00380, ko00030, ko00040, ko00053, ko00061, ko00290, ko00333, ko00650, ko00660, ko00670, ko00780, ko01040, ko01210, ko01212, ko01230, ko01523, map00030, map00040, map00053, map00061, map00290, map00333, map00650, map00660, map00670, map00780, map01040, map01210, map01212, map01230, map01523, ko00920, map00920, ko00630, ko00680, map00630, map00680
+2025-01-07 09:36:22.548314 INFO::Total filtered features with variance filtering: 0
+2025-01-07 09:36:22.550774 INFO::Filtered feature names from variance filtering:
+2025-01-07 09:36:22.553615 INFO::Running selected normalization method: TSS
+2025-01-07 09:36:22.558732 INFO::Applying z-score to standardize continuous metadata
+2025-01-07 09:36:22.566536 INFO::Running selected transform method: LOG
+2025-01-07 09:36:22.57001 INFO::Running selected analysis method: LM
+2025-01-07 09:36:22.575448 INFO::Fitting model to feature number 1, Not_assigned
+2025-01-07 09:36:22.583021 INFO::Fitting model to feature number 2, ko00230
+2025-01-07 09:36:22.590616 INFO::Fitting model to feature number 3, ko00240
+2025-01-07 09:36:22.603014 INFO::Fitting model to feature number 4, ko00523
+2025-01-07 09:36:22.610364 INFO::Fitting model to feature number 5, ko01100
+2025-01-07 09:36:22.618945 INFO::Fitting model to feature number 6, ko01130
+2025-01-07 09:36:22.627434 INFO::Fitting model to feature number 7, ko02024
+2025-01-07 09:36:22.636858 INFO::Fitting model to feature number 8, ko03030
+2025-01-07 09:36:22.64469 INFO::Fitting model to feature number 9, ko03420
+2025-01-07 09:36:22.653082 INFO::Fitting model to feature number 10, ko03430
+2025-01-07 09:36:22.661749 INFO::Fitting model to feature number 11, ko03440
+2025-01-07 09:36:22.670526 INFO::Fitting model to feature number 12, ko04112
+2025-01-07 09:36:22.679936 INFO::Fitting model to feature number 13, map00230
+2025-01-07 09:36:22.68839 INFO::Fitting model to feature number 14, map00240
+2025-01-07 09:36:22.697252 INFO::Fitting model to feature number 15, map00523
+2025-01-07 09:36:22.70503 INFO::Fitting model to feature number 16, map01100
+2025-01-07 09:36:22.712782 INFO::Fitting model to feature number 17, map01130
+2025-01-07 09:36:22.720771 INFO::Fitting model to feature number 18, map02024
+2025-01-07 09:36:22.769577 INFO::Fitting model to feature number 19, map03030
+2025-01-07 09:36:22.837393 INFO::Fitting model to feature number 20, map03420
+2025-01-07 09:36:22.899908 INFO::Fitting model to feature number 21, map03430
+2025-01-07 09:36:22.968231 INFO::Fitting model to feature number 22, map03440
+2025-01-07 09:36:23.05766 INFO::Fitting model to feature number 23, map04112
+2025-01-07 09:36:23.127089 INFO::Fitting model to feature number 24, ko00520
+2025-01-07 09:36:23.207713 INFO::Fitting model to feature number 25, ko03410
+2025-01-07 09:36:23.385213 INFO::Fitting model to feature number 26, map00520
+2025-01-07 09:36:23.497516 INFO::Fitting model to feature number 27, map03410
+2025-01-07 09:36:23.575766 INFO::Fitting model to feature number 28, ko03018
+2025-01-07 09:36:23.706693 INFO::Fitting model to feature number 29, map03018
+2025-01-07 09:36:23.800215 INFO::Fitting model to feature number 30, ko01110
+2025-01-07 09:36:23.898195 INFO::Fitting model to feature number 31, map01110
+2025-01-07 09:36:24.25582 INFO::Fitting model to feature number 32, ko00270
+2025-01-07 09:36:24.425602 INFO::Fitting model to feature number 33, ko05206
+2025-01-07 09:36:24.551617 INFO::Fitting model to feature number 34, map00270
+2025-01-07 09:36:24.647891 INFO::Fitting model to feature number 35, map05206
+2025-01-07 09:36:24.764148 INFO::Fitting model to feature number 36, ko00620
+2025-01-07 09:36:24.883134 INFO::Fitting model to feature number 37, ko01120
+2025-01-07 09:36:25.010067 INFO::Fitting model to feature number 38, ko01200
+2025-01-07 09:36:25.113921 INFO::Fitting model to feature number 39, map00620
+2025-01-07 09:36:25.193401 INFO::Fitting model to feature number 40, map01120
+2025-01-07 09:36:25.26983 INFO::Fitting model to feature number 41, map01200
+2025-01-07 09:36:25.396855 INFO::Fitting model to feature number 42, ko00052
+2025-01-07 09:36:25.496096 INFO::Fitting model to feature number 43, map00052
+2025-01-07 09:36:25.591528 INFO::Fitting model to feature number 44, ko00740
+2025-01-07 09:36:25.755484 INFO::Fitting model to feature number 45, ko04142
+2025-01-07 09:36:25.986606 INFO::Fitting model to feature number 46, ko04380
+2025-01-07 09:36:26.403846 INFO::Fitting model to feature number 47, ko05323
+2025-01-07 09:36:27.051769 INFO::Fitting model to feature number 48, map00740
+2025-01-07 09:36:27.164102 INFO::Fitting model to feature number 49, map04142
+2025-01-07 09:36:27.240519 INFO::Fitting model to feature number 50, map04380
+2025-01-07 09:36:27.323971 INFO::Fitting model to feature number 51, map05323
+2025-01-07 09:36:27.543445 INFO::Counting total values for each feature
+2025-01-07 09:36:27.64774 INFO::Writing filtered data to file Maaslin2tt_virus_pathways_cpm/features/filtered_data.tsv
+2025-01-07 09:36:27.759326 INFO::Writing filtered, normalized data to file Maaslin2tt_virus_pathways_cpm/features/filtered_data_norm.tsv
+2025-01-07 09:36:27.898695 INFO::Writing filtered, normalized, transformed data to file Maaslin2tt_virus_pathways_cpm/features/filtered_data_norm_transformed.tsv
+2025-01-07 09:36:28.111044 INFO::Writing residuals to file Maaslin2tt_virus_pathways_cpm/fits/residuals.rds
+2025-01-07 09:36:28.156545 INFO::Writing fitted values to file Maaslin2tt_virus_pathways_cpm/fits/fitted.rds
+2025-01-07 09:36:28.244284 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2tt_virus_pathways_cpm/all_results.tsv
+2025-01-07 09:36:28.431285 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2tt_virus_pathways_cpm/significant_results.tsv
+2025-01-07 09:36:28.445649 INFO::Writing heatmap of significant results to file: Maaslin2tt_virus_pathways_cpm/heatmap.pdf
+2025-01-07 09:36:28.480765 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2tt_virus_pathways_cpm

@@ -1,0 +1,23 @@
+2025-01-06 08:09:54.98812 INFO::Writing function arguments to log file
+2025-01-06 08:09:54.996851 DEBUG::Function arguments
+2025-01-06 08:09:54.999441 DEBUG::Output folder: Maaslin2_virus_GO_cpm
+2025-01-06 08:09:55.001812 DEBUG::Min Abundance: 0.000000
+2025-01-06 08:09:55.00479 DEBUG::Min Prevalence: 0.200000
+2025-01-06 08:09:55.007208 DEBUG::Normalization: TSS
+2025-01-06 08:09:55.010445 DEBUG::Transform: LOG
+2025-01-06 08:09:55.012548 DEBUG::Analysis method: LM
+2025-01-06 08:09:55.014487 DEBUG::Max significance: 0.250000
+2025-01-06 08:09:55.016599 DEBUG::Random effects:
+2025-01-06 08:09:55.020072 DEBUG::Fixed effects: name
+2025-01-06 08:09:55.023143 DEBUG::Correction method: BH
+2025-01-06 08:09:55.028038 DEBUG::Standardize: TRUE
+2025-01-06 08:09:55.034177 DEBUG::Cores: 1
+2025-01-06 08:09:55.037054 INFO::Verifying options selected are valid
+2025-01-06 08:09:55.043355 INFO::Determining format of input files
+2025-01-06 08:09:55.047779 INFO::Input format is data samples as rows and metadata samples as rows
+2025-01-06 08:09:55.057878 DEBUG::A total of 13 samples were found in both the data and metadata
+2025-01-06 08:09:55.061136 DEBUG::Reordering data/metadata to use same sample ordering
+2025-01-06 08:09:55.073804 INFO::Formula for fixed effects: expr ~  name
+2025-01-06 08:09:55.079613 INFO::Filter data based on min abundance and min prevalence
+2025-01-06 08:09:55.08471 INFO::Total samples in data: 13
+2025-01-06 08:09:55.0922 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000

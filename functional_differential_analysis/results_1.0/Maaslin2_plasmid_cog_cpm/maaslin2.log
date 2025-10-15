@@ -1,0 +1,69 @@
+2025-01-08 10:32:25.334164 INFO::Writing function arguments to log file
+2025-01-08 10:32:25.337381 DEBUG::Function arguments
+2025-01-08 10:32:25.339454 DEBUG::Output folder: Maaslin2_plasmid_cog_cpm
+2025-01-08 10:32:25.340493 DEBUG::Min Abundance: 0.000000
+2025-01-08 10:32:25.341697 DEBUG::Min Prevalence: 0.200000
+2025-01-08 10:32:25.342856 DEBUG::Normalization: TSS
+2025-01-08 10:32:25.343977 DEBUG::Transform: LOG
+2025-01-08 10:32:25.345188 DEBUG::Analysis method: LM
+2025-01-08 10:32:25.346231 DEBUG::Max significance: 0.250000
+2025-01-08 10:32:25.347125 DEBUG::Random effects:
+2025-01-08 10:32:25.348037 DEBUG::Fixed effects: name
+2025-01-08 10:32:25.348908 DEBUG::Correction method: BH
+2025-01-08 10:32:25.349762 DEBUG::Standardize: TRUE
+2025-01-08 10:32:25.35113 DEBUG::Cores: 1
+2025-01-08 10:32:25.352028 INFO::Verifying options selected are valid
+2025-01-08 10:32:25.356302 INFO::Determining format of input files
+2025-01-08 10:32:25.358747 INFO::Input format is data samples as rows and metadata samples as rows
+2025-01-08 10:32:25.361218 DEBUG::A total of 13 samples were found in both the data and metadata
+2025-01-08 10:32:25.362192 DEBUG::Reordering data/metadata to use same sample ordering
+2025-01-08 10:32:25.363672 INFO::Formula for fixed effects: expr ~  name
+2025-01-08 10:32:25.366492 INFO::Filter data based on min abundance and min prevalence
+2025-01-08 10:32:25.369166 INFO::Total samples in data: 13
+2025-01-08 10:32:25.372926 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2025-01-08 10:32:25.376681 INFO::Total filtered features: 26
+2025-01-08 10:32:25.379235 INFO::Filtered feature names from abundance and prevalence filtering: JKL, N, CT, EM, KL, UW, CNU, CP, ET, FG, HI, NPTU, EP, GM, KLT, CE, CQ, GT, MT, CO, FJ, QT, IM, NT, NO, KU
+2025-01-08 10:32:25.382501 INFO::Total filtered features with variance filtering: 0
+2025-01-08 10:32:25.385173 INFO::Filtered feature names from variance filtering:
+2025-01-08 10:32:25.390901 INFO::Running selected normalization method: TSS
+2025-01-08 10:32:25.394778 INFO::Applying z-score to standardize continuous metadata
+2025-01-08 10:32:25.399653 INFO::Running selected transform method: LOG
+2025-01-08 10:32:25.402925 INFO::Running selected analysis method: LM
+2025-01-08 10:32:25.408886 INFO::Fitting model to feature number 1, C
+2025-01-08 10:32:25.416407 INFO::Fitting model to feature number 2, D
+2025-01-08 10:32:25.425688 INFO::Fitting model to feature number 3, E
+2025-01-08 10:32:25.432657 INFO::Fitting model to feature number 4, EH
+2025-01-08 10:32:25.441615 INFO::Fitting model to feature number 5, F
+2025-01-08 10:32:25.448096 INFO::Fitting model to feature number 6, G
+2025-01-08 10:32:25.458255 INFO::Fitting model to feature number 7, H
+2025-01-08 10:32:25.465727 INFO::Fitting model to feature number 8, I
+2025-01-08 10:32:25.474053 INFO::Fitting model to feature number 9, J
+2025-01-08 10:32:25.481458 INFO::Fitting model to feature number 10, K
+2025-01-08 10:32:25.490997 INFO::Fitting model to feature number 11, L
+2025-01-08 10:32:25.497954 INFO::Fitting model to feature number 12, M
+2025-01-08 10:32:25.507668 INFO::Fitting model to feature number 13, O
+2025-01-08 10:32:25.515999 INFO::Fitting model to feature number 14, P
+2025-01-08 10:32:25.524828 INFO::Fitting model to feature number 15, Q
+2025-01-08 10:32:25.532014 INFO::Fitting model to feature number 16, S
+2025-01-08 10:32:25.543705 INFO::Fitting model to feature number 17, U
+2025-01-08 10:32:25.550916 INFO::Fitting model to feature number 18, EG
+2025-01-08 10:32:25.560472 INFO::Fitting model to feature number 19, IQ
+2025-01-08 10:32:25.568421 INFO::Fitting model to feature number 20, T
+2025-01-08 10:32:25.57701 INFO::Fitting model to feature number 21, CH
+2025-01-08 10:32:25.58441 INFO::Fitting model to feature number 22, MU
+2025-01-08 10:32:25.594034 INFO::Fitting model to feature number 23, EGP
+2025-01-08 10:32:25.602431 INFO::Fitting model to feature number 24, NU
+2025-01-08 10:32:25.611419 INFO::Fitting model to feature number 25, V
+2025-01-08 10:32:25.618299 INFO::Fitting model to feature number 26, HJ
+2025-01-08 10:32:25.633008 INFO::Counting total values for each feature
+2025-01-08 10:32:25.640142 INFO::Writing filtered data to file Maaslin2_plasmid_cog_cpm/features/filtered_data.tsv
+2025-01-08 10:32:25.650384 INFO::Writing filtered, normalized data to file Maaslin2_plasmid_cog_cpm/features/filtered_data_norm.tsv
+2025-01-08 10:32:25.657259 INFO::Writing filtered, normalized, transformed data to file Maaslin2_plasmid_cog_cpm/features/filtered_data_norm_transformed.tsv
+2025-01-08 10:32:25.664143 WARNING::Deleting existing residuals file: Maaslin2_plasmid_cog_cpm/fits/residuals.rds
+2025-01-08 10:32:25.668187 INFO::Writing residuals to file Maaslin2_plasmid_cog_cpm/fits/residuals.rds
+2025-01-08 10:32:25.67345 WARNING::Deleting existing fitted file: Maaslin2_plasmid_cog_cpm/fits/fitted.rds
+2025-01-08 10:32:25.67707 INFO::Writing fitted values to file Maaslin2_plasmid_cog_cpm/fits/fitted.rds
+2025-01-08 10:32:25.680324 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_plasmid_cog_cpm/all_results.tsv
+2025-01-08 10:32:25.686174 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_plasmid_cog_cpm/significant_results.tsv
+2025-01-08 10:32:25.691158 INFO::Writing heatmap of significant results to file: Maaslin2_plasmid_cog_cpm/heatmap.pdf
+2025-01-08 10:32:25.695993 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_plasmid_cog_cpm

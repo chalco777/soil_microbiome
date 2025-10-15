@@ -1,0 +1,87 @@
+2024-11-16 20:39:32.786232 INFO::Writing function arguments to log file
+2024-11-16 20:39:32.790848 DEBUG::Function arguments
+2024-11-16 20:39:32.793077 DEBUG::Output folder: Maaslin2_plasmid_cog_none
+2024-11-16 20:39:32.794578 DEBUG::Min Abundance: 0.000000
+2024-11-16 20:39:32.796034 DEBUG::Min Prevalence: 0.200000
+2024-11-16 20:39:32.797564 DEBUG::Normalization: NONE
+2024-11-16 20:39:32.79913 DEBUG::Transform: NONE
+2024-11-16 20:39:32.800534 DEBUG::Analysis method: NEGBIN
+2024-11-16 20:39:32.802013 DEBUG::Max significance: 0.250000
+2024-11-16 20:39:32.803414 DEBUG::Random effects:
+2024-11-16 20:39:32.804946 DEBUG::Fixed effects: name
+2024-11-16 20:39:32.807792 DEBUG::Correction method: BH
+2024-11-16 20:39:32.809262 DEBUG::Standardize: TRUE
+2024-11-16 20:39:32.811463 DEBUG::Cores: 1
+2024-11-16 20:39:32.812834 INFO::Verifying options selected are valid
+2024-11-16 20:39:32.819359 INFO::Determining format of input files
+2024-11-16 20:39:32.82243 INFO::Input format is data samples as rows and metadata samples as rows
+2024-11-16 20:39:32.825573 DEBUG::A total of 13 samples were found in both the data and metadata
+2024-11-16 20:39:32.826998 DEBUG::Reordering data/metadata to use same sample ordering
+2024-11-16 20:39:32.829237 INFO::Formula for fixed effects: expr ~  name
+2024-11-16 20:39:32.832025 INFO::Filter data based on min abundance and min prevalence
+2024-11-16 20:39:32.834486 INFO::Total samples in data: 13
+2024-11-16 20:39:32.837765 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2024-11-16 20:39:32.845316 INFO::Total filtered features: 26
+2024-11-16 20:39:32.848121 INFO::Filtered feature names from abundance and prevalence filtering: JKL, N, CT, EM, KL, UW, CNU, CP, ET, FG, HI, NPTU, EP, GM, KLT, CE, CQ, GT, MT, CO, FJ, QT, IM, NT, NO, KU
+2024-11-16 20:39:32.853454 INFO::Total filtered features with variance filtering: 0
+2024-11-16 20:39:32.85883 INFO::Filtered feature names from variance filtering:
+2024-11-16 20:39:32.863026 INFO::Running selected normalization method: NONE
+2024-11-16 20:39:32.867082 INFO::Applying z-score to standardize continuous metadata
+2024-11-16 20:39:32.875619 INFO::Running selected transform method: NONE
+2024-11-16 20:39:32.878322 INFO::Running selected analysis method: NEGBIN
+2024-11-16 20:39:33.004285 INFO::Fitting model to feature number 1, C
+2024-11-16 20:39:33.016104 INFO::Fitting model to feature number 2, D
+2024-11-16 20:39:33.024492 INFO::Fitting model to feature number 3, E
+2024-11-16 20:39:33.03014 WARNING::Fitting problem for feature 3 a warning was issued
+2024-11-16 20:39:33.042967 INFO::Fitting model to feature number 4, EH
+2024-11-16 20:39:33.049072 WARNING::Fitting problem for feature 4 a warning was issued
+2024-11-16 20:39:33.084778 INFO::Fitting model to feature number 5, F
+2024-11-16 20:39:33.092478 INFO::Fitting model to feature number 6, G
+2024-11-16 20:39:33.09908 INFO::Fitting model to feature number 7, H
+2024-11-16 20:39:33.107716 INFO::Fitting model to feature number 8, I
+2024-11-16 20:39:33.114829 INFO::Fitting model to feature number 9, J
+2024-11-16 20:39:33.122894 INFO::Fitting model to feature number 10, K
+2024-11-16 20:39:33.130306 INFO::Fitting model to feature number 11, L
+2024-11-16 20:39:33.137041 WARNING::Fitting problem for feature 11 a warning was issued
+2024-11-16 20:39:33.149175 INFO::Fitting model to feature number 12, M
+2024-11-16 20:39:33.158225 INFO::Fitting model to feature number 13, O
+2024-11-16 20:39:33.164996 INFO::Fitting model to feature number 14, P
+2024-11-16 20:39:33.171595 INFO::Fitting model to feature number 15, Q
+2024-11-16 20:39:33.1806 INFO::Fitting model to feature number 16, S
+2024-11-16 20:39:33.187213 INFO::Fitting model to feature number 17, U
+2024-11-16 20:39:33.19521 INFO::Fitting model to feature number 18, EG
+2024-11-16 20:39:33.203068 INFO::Fitting model to feature number 19, IQ
+2024-11-16 20:39:33.211677 INFO::Fitting model to feature number 20, T
+2024-11-16 20:39:33.219006 INFO::Fitting model to feature number 21, CH
+2024-11-16 20:39:33.226815 WARNING::Fitting problem for feature 21 a warning was issued
+2024-11-16 20:39:33.266064 INFO::Fitting model to feature number 22, MU
+2024-11-16 20:39:33.276401 INFO::Fitting model to feature number 23, EGP
+2024-11-16 20:39:33.283079 INFO::Fitting model to feature number 24, NU
+2024-11-16 20:39:33.292172 WARNING::Fitting problem for feature 24 a warning was issued
+2024-11-16 20:39:33.299627 INFO::Fitting model to feature number 25, V
+2024-11-16 20:39:33.308208 INFO::Fitting model to feature number 26, HJ
+2024-11-16 20:39:33.320061 INFO::Counting total values for each feature
+2024-11-16 20:39:33.327503 INFO::Writing filtered data to file Maaslin2_plasmid_cog_none/features/filtered_data.tsv
+2024-11-16 20:39:33.332683 INFO::Writing filtered, normalized data to file Maaslin2_plasmid_cog_none/features/filtered_data_norm.tsv
+2024-11-16 20:39:33.337365 INFO::Writing filtered, normalized, transformed data to file Maaslin2_plasmid_cog_none/features/filtered_data_norm_transformed.tsv
+2024-11-16 20:39:33.343492 WARNING::Deleting existing residuals file: Maaslin2_plasmid_cog_none/fits/residuals.rds
+2024-11-16 20:39:33.346866 INFO::Writing residuals to file Maaslin2_plasmid_cog_none/fits/residuals.rds
+2024-11-16 20:39:33.350255 WARNING::Deleting existing fitted file: Maaslin2_plasmid_cog_none/fits/fitted.rds
+2024-11-16 20:39:33.353951 INFO::Writing fitted values to file Maaslin2_plasmid_cog_none/fits/fitted.rds
+2024-11-16 20:39:33.359454 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_plasmid_cog_none/all_results.tsv
+2024-11-16 20:39:33.36571 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_plasmid_cog_none/significant_results.tsv
+2024-11-16 20:39:33.370781 INFO::Writing heatmap of significant results to file: Maaslin2_plasmid_cog_none/heatmap.pdf
+2024-11-16 20:39:33.659076 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_plasmid_cog_none
+2024-11-16 20:39:33.663617 INFO::Plotting associations from most to least significant, grouped by metadata
+2024-11-16 20:39:33.66687 INFO::Plotting data for metadata number 1, name
+2024-11-16 20:39:33.673504 INFO::Creating boxplot for categorical data, name vs L
+2024-11-16 20:39:35.378245 INFO::Creating boxplot for categorical data, name vs CH
+2024-11-16 20:39:35.574545 INFO::Creating boxplot for categorical data, name vs O
+2024-11-16 20:39:35.904435 INFO::Creating boxplot for categorical data, name vs E
+2024-11-16 20:39:36.124003 INFO::Creating boxplot for categorical data, name vs EH
+2024-11-16 20:39:36.310565 INFO::Creating boxplot for categorical data, name vs F
+2024-11-16 20:39:36.696046 INFO::Creating boxplot for categorical data, name vs L
+2024-11-16 20:39:36.936307 INFO::Creating boxplot for categorical data, name vs M
+2024-11-16 20:39:43.623971 INFO::Creating boxplot for categorical data, name vs O
+2024-11-16 20:39:44.177589 INFO::Creating boxplot for categorical data, name vs V
+2024-11-16 20:39:44.594323 INFO::Creating boxplot for categorical data, name vs Q

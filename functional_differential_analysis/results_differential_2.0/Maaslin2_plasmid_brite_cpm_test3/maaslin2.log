@@ -1,0 +1,71 @@
+2025-01-12 13:30:36.010398 INFO::Writing function arguments to log file
+2025-01-12 13:30:36.015499 DEBUG::Function arguments
+2025-01-12 13:30:36.017142 DEBUG::Output folder: Maaslin2_plasmid_brite_cpm_test3
+2025-01-12 13:30:36.018609 DEBUG::Min Abundance: 0.000000
+2025-01-12 13:30:36.020004 DEBUG::Min Prevalence: 0.200000
+2025-01-12 13:30:36.021467 DEBUG::Normalization: TSS
+2025-01-12 13:30:36.022873 DEBUG::Transform: LOG
+2025-01-12 13:30:36.025257 DEBUG::Analysis method: LM
+2025-01-12 13:30:36.028368 DEBUG::Max significance: 0.250000
+2025-01-12 13:30:36.030406 DEBUG::Random effects:
+2025-01-12 13:30:36.031879 DEBUG::Fixed effects: name
+2025-01-12 13:30:36.033371 DEBUG::Correction method: BH
+2025-01-12 13:30:36.034897 DEBUG::Standardize: TRUE
+2025-01-12 13:30:36.036702 DEBUG::Cores: 1
+2025-01-12 13:30:36.038218 INFO::Verifying options selected are valid
+2025-01-12 13:30:36.044619 INFO::Determining format of input files
+2025-01-12 13:30:36.050406 INFO::Input format is data samples as rows and metadata samples as rows
+2025-01-12 13:30:36.057242 DEBUG::A total of 13 samples were found in both the data and metadata
+2025-01-12 13:30:36.062212 DEBUG::Reordering data/metadata to use same sample ordering
+2025-01-12 13:30:36.067355 INFO::Formula for fixed effects: expr ~  name
+2025-01-12 13:30:36.078811 INFO::Filter data based on min abundance and min prevalence
+2025-01-12 13:30:36.084945 INFO::Total samples in data: 13
+2025-01-12 13:30:36.09051 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2025-01-12 13:30:36.096427 INFO::Total filtered features: 13
+2025-01-12 13:30:36.100575 INFO::Filtered feature names from abundance and prevalence filtering: ko01003, ko01009, ko01011, ko03012, ko03019, ko03051, ko04131, ko04812, ko02022, ko01005, ko00194, ko01504, ko00537
+2025-01-12 13:30:36.110994 INFO::Total filtered features with variance filtering: 0
+2025-01-12 13:30:36.115143 INFO::Filtered feature names from variance filtering:
+2025-01-12 13:30:36.118936 INFO::Running selected normalization method: TSS
+2025-01-12 13:30:36.124404 INFO::Applying z-score to standardize continuous metadata
+2025-01-12 13:30:36.133541 INFO::Running selected transform method: LOG
+2025-01-12 13:30:36.138862 INFO::Running selected analysis method: LM
+2025-01-12 13:30:36.149712 INFO::Fitting model to feature number 1, br01602
+2025-01-12 13:30:36.179071 INFO::Fitting model to feature number 2, ko00000
+2025-01-12 13:30:36.190574 INFO::Fitting model to feature number 3, ko00001
+2025-01-12 13:30:36.203201 INFO::Fitting model to feature number 4, ko00002
+2025-01-12 13:30:36.218266 INFO::Fitting model to feature number 5, ko01000
+2025-01-12 13:30:36.232005 INFO::Fitting model to feature number 6, ko01002
+2025-01-12 13:30:36.247171 INFO::Fitting model to feature number 7, ko02000
+2025-01-12 13:30:36.260292 INFO::Fitting model to feature number 8, ko02035
+2025-01-12 13:30:36.271543 INFO::Fitting model to feature number 9, ko02044
+2025-01-12 13:30:36.284694 INFO::Fitting model to feature number 10, ko02048
+2025-01-12 13:30:36.297548 INFO::Fitting model to feature number 11, ko03000
+2025-01-12 13:30:36.318988 INFO::Fitting model to feature number 12, ko03029
+2025-01-12 13:30:36.332809 INFO::Fitting model to feature number 13, ko03036
+2025-01-12 13:30:36.34544 INFO::Fitting model to feature number 14, ko03110
+2025-01-12 13:30:36.36063 INFO::Fitting model to feature number 15, ko03400
+2025-01-12 13:30:36.373564 INFO::Fitting model to feature number 16, ko04147
+2025-01-12 13:30:36.387031 INFO::Fitting model to feature number 17, ko01004
+2025-01-12 13:30:36.405623 INFO::Fitting model to feature number 18, ko03016
+2025-01-12 13:30:36.421329 INFO::Fitting model to feature number 19, ko03021
+2025-01-12 13:30:36.437293 INFO::Fitting model to feature number 20, ko03032
+2025-01-12 13:30:36.451223 INFO::Fitting model to feature number 21, br01601
+2025-01-12 13:30:36.466905 INFO::Fitting model to feature number 22, ko01007
+2025-01-12 13:30:36.479953 INFO::Fitting model to feature number 23, ko01001
+2025-01-12 13:30:36.505555 INFO::Counting total values for each feature
+2025-01-12 13:30:36.516397 INFO::Writing filtered data to file Maaslin2_plasmid_brite_cpm_test3/features/filtered_data.tsv
+2025-01-12 13:30:36.527404 INFO::Writing filtered, normalized data to file Maaslin2_plasmid_brite_cpm_test3/features/filtered_data_norm.tsv
+2025-01-12 13:30:36.535409 INFO::Writing filtered, normalized, transformed data to file Maaslin2_plasmid_brite_cpm_test3/features/filtered_data_norm_transformed.tsv
+2025-01-12 13:30:36.546424 WARNING::Deleting existing residuals file: Maaslin2_plasmid_brite_cpm_test3/fits/residuals.rds
+2025-01-12 13:30:36.55295 INFO::Writing residuals to file Maaslin2_plasmid_brite_cpm_test3/fits/residuals.rds
+2025-01-12 13:30:36.560795 WARNING::Deleting existing fitted file: Maaslin2_plasmid_brite_cpm_test3/fits/fitted.rds
+2025-01-12 13:30:36.56735 INFO::Writing fitted values to file Maaslin2_plasmid_brite_cpm_test3/fits/fitted.rds
+2025-01-12 13:30:36.572411 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_plasmid_brite_cpm_test3/all_results.tsv
+2025-01-12 13:30:36.584644 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_plasmid_brite_cpm_test3/significant_results.tsv
+2025-01-12 13:30:36.589852 INFO::Writing heatmap of significant results to file: Maaslin2_plasmid_brite_cpm_test3/heatmap.pdf
+2025-01-12 13:30:36.718269 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_plasmid_brite_cpm_test3
+2025-01-12 13:30:36.723656 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-01-12 13:30:36.729695 INFO::Plotting data for metadata number 1, name
+2025-01-12 13:30:36.73489 INFO::Creating boxplot for categorical data, name vs ko02044
+2025-01-12 13:30:37.148189 INFO::Creating boxplot for categorical data, name vs ko00000
+2025-01-12 13:30:37.514378 INFO::Creating boxplot for categorical data, name vs ko02044

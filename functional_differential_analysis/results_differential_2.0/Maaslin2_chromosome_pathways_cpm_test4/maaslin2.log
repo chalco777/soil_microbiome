@@ -1,0 +1,344 @@
+2025-01-12 14:37:21.726012 INFO::Writing function arguments to log file
+2025-01-12 14:37:21.737089 DEBUG::Function arguments
+2025-01-12 14:37:21.743147 DEBUG::Output folder: Maaslin2_chromosome_pathways_cpm_test4
+2025-01-12 14:37:21.746194 DEBUG::Min Abundance: 0.000000
+2025-01-12 14:37:21.748686 DEBUG::Min Prevalence: 0.200000
+2025-01-12 14:37:21.756412 DEBUG::Normalization: TSS
+2025-01-12 14:37:21.759131 DEBUG::Transform: LOG
+2025-01-12 14:37:21.764642 DEBUG::Analysis method: LM
+2025-01-12 14:37:21.772469 DEBUG::Max significance: 0.250000
+2025-01-12 14:37:21.775981 DEBUG::Random effects:
+2025-01-12 14:37:21.778853 DEBUG::Fixed effects: name
+2025-01-12 14:37:21.781709 DEBUG::Correction method: BH
+2025-01-12 14:37:21.989758 DEBUG::Standardize: TRUE
+2025-01-12 14:37:21.997278 DEBUG::Cores: 1
+2025-01-12 14:37:22.003491 INFO::Verifying options selected are valid
+2025-01-12 14:37:22.010491 INFO::Determining format of input files
+2025-01-12 14:37:22.020921 INFO::Input format is data samples as rows and metadata samples as rows
+2025-01-12 14:37:22.030068 DEBUG::A total of 13 samples were found in both the data and metadata
+2025-01-12 14:37:22.036362 DEBUG::Reordering data/metadata to use same sample ordering
+2025-01-12 14:37:22.046341 INFO::Formula for fixed effects: expr ~  name
+2025-01-12 14:37:22.055706 INFO::Filter data based on min abundance and min prevalence
+2025-01-12 14:37:22.0632 INFO::Total samples in data: 13
+2025-01-12 14:37:22.078039 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2025-01-12 14:37:22.097552 INFO::Total filtered features: 44
+2025-01-12 14:37:22.109535 INFO::Filtered feature names from abundance and prevalence filtering: map04640, map04740, map05032, map00232, map00902, map04630, map04950, map00331, map00604, map04623, map04712, map05322, map05160, map00062, map00363, map00943, map04110, map04114, map04120, map04261, map04340, map04624, map04916, map04960, map04961, map04970, map04971, map04972, map04978, map05226, map04145, map04270, map04921, map04923, map03040, map04136, map04140, map04371, map05110, map05414, map05212, map00944, map05144, map04722
+2025-01-12 14:37:22.140289 INFO::Total filtered features with variance filtering: 0
+2025-01-12 14:37:22.147136 INFO::Filtered feature names from variance filtering:
+2025-01-12 14:37:22.160802 INFO::Running selected normalization method: TSS
+2025-01-12 14:37:22.186062 INFO::Applying z-score to standardize continuous metadata
+2025-01-12 14:37:22.206369 INFO::Running selected transform method: LOG
+2025-01-12 14:37:22.229164 INFO::Running selected analysis method: LM
+2025-01-12 14:37:22.246734 INFO::Fitting model to feature number 1, map00010
+2025-01-12 14:37:22.269091 INFO::Fitting model to feature number 2, map00020
+2025-01-12 14:37:22.282344 INFO::Fitting model to feature number 3, map00030
+2025-01-12 14:37:22.310575 INFO::Fitting model to feature number 4, map00040
+2025-01-12 14:37:22.329609 INFO::Fitting model to feature number 5, map00051
+2025-01-12 14:37:22.345402 INFO::Fitting model to feature number 6, map00052
+2025-01-12 14:37:22.375886 INFO::Fitting model to feature number 7, map00053
+2025-01-12 14:37:22.393275 INFO::Fitting model to feature number 8, map00061
+2025-01-12 14:37:22.411787 INFO::Fitting model to feature number 9, map00071
+2025-01-12 14:37:22.437255 INFO::Fitting model to feature number 10, map00072
+2025-01-12 14:37:22.455297 INFO::Fitting model to feature number 11, map00100
+2025-01-12 14:37:22.47161 INFO::Fitting model to feature number 12, map00130
+2025-01-12 14:37:22.495026 INFO::Fitting model to feature number 13, map00140
+2025-01-12 14:37:22.511191 INFO::Fitting model to feature number 14, map00190
+2025-01-12 14:37:22.526643 INFO::Fitting model to feature number 15, map00195
+2025-01-12 14:37:22.553976 INFO::Fitting model to feature number 16, map00220
+2025-01-12 14:37:22.570602 INFO::Fitting model to feature number 17, map00230
+2025-01-12 14:37:22.585894 INFO::Fitting model to feature number 18, map00240
+2025-01-12 14:37:22.613961 INFO::Fitting model to feature number 19, map00250
+2025-01-12 14:37:22.629066 INFO::Fitting model to feature number 20, map00253
+2025-01-12 14:37:22.64556 INFO::Fitting model to feature number 21, map00260
+2025-01-12 14:37:22.675141 INFO::Fitting model to feature number 22, map00261
+2025-01-12 14:37:22.693075 INFO::Fitting model to feature number 23, map00270
+2025-01-12 14:37:22.709521 INFO::Fitting model to feature number 24, map00280
+2025-01-12 14:37:22.733172 INFO::Fitting model to feature number 25, map00281
+2025-01-12 14:37:22.74749 INFO::Fitting model to feature number 26, map00290
+2025-01-12 14:37:22.762243 INFO::Fitting model to feature number 27, map00300
+2025-01-12 14:37:22.788946 INFO::Fitting model to feature number 28, map00310
+2025-01-12 14:37:22.802347 INFO::Fitting model to feature number 29, map00311
+2025-01-12 14:37:22.813393 INFO::Fitting model to feature number 30, map00330
+2025-01-12 14:37:22.838884 INFO::Fitting model to feature number 31, map00332
+2025-01-12 14:37:22.853223 INFO::Fitting model to feature number 32, map00333
+2025-01-12 14:37:22.864381 INFO::Fitting model to feature number 33, map00340
+2025-01-12 14:37:22.890605 INFO::Fitting model to feature number 34, map00350
+2025-01-12 14:37:22.906505 INFO::Fitting model to feature number 35, map00360
+2025-01-12 14:37:22.919728 INFO::Fitting model to feature number 36, map00361
+2025-01-12 14:37:22.938695 INFO::Fitting model to feature number 37, map00362
+2025-01-12 14:37:22.947492 INFO::Fitting model to feature number 38, map00364
+2025-01-12 14:37:22.961987 INFO::Fitting model to feature number 39, map00365
+2025-01-12 14:37:22.979869 INFO::Fitting model to feature number 40, map00380
+2025-01-12 14:37:22.992372 INFO::Fitting model to feature number 41, map00400
+2025-01-12 14:37:23.008265 INFO::Fitting model to feature number 42, map00401
+2025-01-12 14:37:23.029364 INFO::Fitting model to feature number 43, map00405
+2025-01-12 14:37:23.042607 INFO::Fitting model to feature number 44, map00410
+2025-01-12 14:37:23.055547 INFO::Fitting model to feature number 45, map00430
+2025-01-12 14:37:23.073511 INFO::Fitting model to feature number 46, map00440
+2025-01-12 14:37:23.086408 INFO::Fitting model to feature number 47, map00450
+2025-01-12 14:37:23.095145 INFO::Fitting model to feature number 48, map00460
+2025-01-12 14:37:23.113098 INFO::Fitting model to feature number 49, map00471
+2025-01-12 14:37:23.126146 INFO::Fitting model to feature number 50, map00473
+2025-01-12 14:37:23.140536 INFO::Fitting model to feature number 51, map00480
+2025-01-12 14:37:23.158238 INFO::Fitting model to feature number 52, map00500
+2025-01-12 14:37:23.171324 INFO::Fitting model to feature number 53, map00510
+2025-01-12 14:37:23.181263 INFO::Fitting model to feature number 54, map00511
+2025-01-12 14:37:23.200038 INFO::Fitting model to feature number 55, map00520
+2025-01-12 14:37:23.212415 INFO::Fitting model to feature number 56, map00521
+2025-01-12 14:37:23.225496 INFO::Fitting model to feature number 57, map00523
+2025-01-12 14:37:23.24303 INFO::Fitting model to feature number 58, map00525
+2025-01-12 14:37:23.254635 INFO::Fitting model to feature number 59, map00531
+2025-01-12 14:37:23.265095 INFO::Fitting model to feature number 60, map00540
+2025-01-12 14:37:23.282318 INFO::Fitting model to feature number 61, map00550
+2025-01-12 14:37:23.294682 INFO::Fitting model to feature number 62, map00561
+2025-01-12 14:37:23.308385 INFO::Fitting model to feature number 63, map00562
+2025-01-12 14:37:23.326717 INFO::Fitting model to feature number 64, map00564
+2025-01-12 14:37:23.340742 INFO::Fitting model to feature number 65, map00590
+2025-01-12 14:37:23.357155 INFO::Fitting model to feature number 66, map00600
+2025-01-12 14:37:23.384563 INFO::Fitting model to feature number 67, map00620
+2025-01-12 14:37:23.395854 INFO::Fitting model to feature number 68, map00621
+2025-01-12 14:37:23.406848 INFO::Fitting model to feature number 69, map00622
+2025-01-12 14:37:23.425551 INFO::Fitting model to feature number 70, map00623
+2025-01-12 14:37:23.436957 INFO::Fitting model to feature number 71, map00624
+2025-01-12 14:37:23.445274 INFO::Fitting model to feature number 72, map00625
+2025-01-12 14:37:23.463653 INFO::Fitting model to feature number 73, map00626
+2025-01-12 14:37:23.47717 INFO::Fitting model to feature number 74, map00627
+2025-01-12 14:37:23.489511 INFO::Fitting model to feature number 75, map00630
+2025-01-12 14:37:23.50757 INFO::Fitting model to feature number 76, map00633
+2025-01-12 14:37:23.516551 INFO::Fitting model to feature number 77, map00640
+2025-01-12 14:37:23.529241 INFO::Fitting model to feature number 78, map00642
+2025-01-12 14:37:23.548444 INFO::Fitting model to feature number 79, map00643
+2025-01-12 14:37:23.559864 INFO::Fitting model to feature number 80, map00650
+2025-01-12 14:37:23.572715 INFO::Fitting model to feature number 81, map00660
+2025-01-12 14:37:23.5902 INFO::Fitting model to feature number 82, map00670
+2025-01-12 14:37:23.599282 INFO::Fitting model to feature number 83, map00680
+2025-01-12 14:37:23.612563 INFO::Fitting model to feature number 84, map00710
+2025-01-12 14:37:23.631466 INFO::Fitting model to feature number 85, map00720
+2025-01-12 14:37:23.643323 INFO::Fitting model to feature number 86, map00730
+2025-01-12 14:37:23.656648 INFO::Fitting model to feature number 87, map00740
+2025-01-12 14:37:23.67337 INFO::Fitting model to feature number 88, map00750
+2025-01-12 14:37:23.68795 INFO::Fitting model to feature number 89, map00760
+2025-01-12 14:37:23.696844 INFO::Fitting model to feature number 90, map00770
+2025-01-12 14:37:23.714167 INFO::Fitting model to feature number 91, map00780
+2025-01-12 14:37:23.727087 INFO::Fitting model to feature number 92, map00785
+2025-01-12 14:37:23.73974 INFO::Fitting model to feature number 93, map00790
+2025-01-12 14:37:23.758728 INFO::Fitting model to feature number 94, map00791
+2025-01-12 14:37:23.772597 INFO::Fitting model to feature number 95, map00830
+2025-01-12 14:37:23.782282 INFO::Fitting model to feature number 96, map00860
+2025-01-12 14:37:23.79929 INFO::Fitting model to feature number 97, map00900
+2025-01-12 14:37:23.820069 INFO::Fitting model to feature number 98, map00903
+2025-01-12 14:37:23.839056 INFO::Fitting model to feature number 99, map00908
+2025-01-12 14:37:23.895194 INFO::Fitting model to feature number 100, map00909
+2025-01-12 14:37:23.907164 INFO::Fitting model to feature number 101, map00910
+2025-01-12 14:37:23.918665 INFO::Fitting model to feature number 102, map00920
+2025-01-12 14:37:23.938507 INFO::Fitting model to feature number 103, map00930
+2025-01-12 14:37:23.947613 INFO::Fitting model to feature number 104, map00940
+2025-01-12 14:37:23.961916 INFO::Fitting model to feature number 105, map00950
+2025-01-12 14:37:23.981639 INFO::Fitting model to feature number 106, map00960
+2025-01-12 14:37:23.99367 INFO::Fitting model to feature number 107, map00966
+2025-01-12 14:37:24.00611 INFO::Fitting model to feature number 108, map00970
+2025-01-12 14:37:24.021831 INFO::Fitting model to feature number 109, map00980
+2025-01-12 14:37:24.030485 INFO::Fitting model to feature number 110, map00981
+2025-01-12 14:37:24.042083 INFO::Fitting model to feature number 111, map00982
+2025-01-12 14:37:24.060965 INFO::Fitting model to feature number 112, map00983
+2025-01-12 14:37:24.073002 INFO::Fitting model to feature number 113, map00984
+2025-01-12 14:37:24.082945 INFO::Fitting model to feature number 114, map01040
+2025-01-12 14:37:24.223199 INFO::Fitting model to feature number 115, map01051
+2025-01-12 14:37:24.23468 INFO::Fitting model to feature number 116, map01052
+2025-01-12 14:37:24.245559 INFO::Fitting model to feature number 117, map01055
+2025-01-12 14:37:24.264813 INFO::Fitting model to feature number 118, map01056
+2025-01-12 14:37:24.279136 INFO::Fitting model to feature number 119, map01059
+2025-01-12 14:37:24.291925 INFO::Fitting model to feature number 120, map01100
+2025-01-12 14:37:24.311242 INFO::Fitting model to feature number 121, map01110
+2025-01-12 14:37:24.325507 INFO::Fitting model to feature number 122, map01120
+2025-01-12 14:37:24.338125 INFO::Fitting model to feature number 123, map01130
+2025-01-12 14:37:24.359445 INFO::Fitting model to feature number 124, map01200
+2025-01-12 14:37:24.374257 INFO::Fitting model to feature number 125, map01210
+2025-01-12 14:37:24.387671 INFO::Fitting model to feature number 126, map01212
+2025-01-12 14:37:24.41336 INFO::Fitting model to feature number 127, map01220
+2025-01-12 14:37:24.428404 INFO::Fitting model to feature number 128, map01230
+2025-01-12 14:37:24.440248 INFO::Fitting model to feature number 129, map01501
+2025-01-12 14:37:24.463214 INFO::Fitting model to feature number 130, map01502
+2025-01-12 14:37:24.476477 INFO::Fitting model to feature number 131, map01503
+2025-01-12 14:37:24.513053 INFO::Fitting model to feature number 132, map01523
+2025-01-12 14:37:24.544419 INFO::Fitting model to feature number 133, map01524
+2025-01-12 14:37:24.558825 INFO::Fitting model to feature number 134, map02010
+2025-01-12 14:37:24.575474 INFO::Fitting model to feature number 135, map02020
+2025-01-12 14:37:24.603426 INFO::Fitting model to feature number 136, map02024
+2025-01-12 14:37:24.614319 INFO::Fitting model to feature number 137, map02025
+2025-01-12 14:37:24.6285 INFO::Fitting model to feature number 138, map02026
+2025-01-12 14:37:24.665538 INFO::Fitting model to feature number 139, map02030
+2025-01-12 14:37:24.681421 INFO::Fitting model to feature number 140, map02040
+2025-01-12 14:37:24.694171 INFO::Fitting model to feature number 141, map02060
+2025-01-12 14:37:24.712578 INFO::Fitting model to feature number 142, map03008
+2025-01-12 14:37:24.727526 INFO::Fitting model to feature number 143, map03010
+2025-01-12 14:37:24.740949 INFO::Fitting model to feature number 144, map03013
+2025-01-12 14:37:24.759825 INFO::Fitting model to feature number 145, map03018
+2025-01-12 14:37:24.772722 INFO::Fitting model to feature number 146, map03020
+2025-01-12 14:37:24.784004 INFO::Fitting model to feature number 147, map03022
+2025-01-12 14:37:24.80362 INFO::Fitting model to feature number 148, map03030
+2025-01-12 14:37:24.813613 INFO::Fitting model to feature number 149, map03050
+2025-01-12 14:37:24.824831 INFO::Fitting model to feature number 150, map03060
+2025-01-12 14:37:24.842878 INFO::Fitting model to feature number 151, map03070
+2025-01-12 14:37:24.855954 INFO::Fitting model to feature number 152, map03320
+2025-01-12 14:37:24.8692 INFO::Fitting model to feature number 153, map03410
+2025-01-12 14:37:24.888648 INFO::Fitting model to feature number 154, map03420
+2025-01-12 14:37:24.897405 INFO::Fitting model to feature number 155, map03430
+2025-01-12 14:37:24.908936 INFO::Fitting model to feature number 156, map03440
+2025-01-12 14:37:24.92821 INFO::Fitting model to feature number 157, map03450
+2025-01-12 14:37:24.945483 INFO::Fitting model to feature number 158, map03460
+2025-01-12 14:37:24.959761 INFO::Fitting model to feature number 159, map04016
+2025-01-12 14:37:24.979134 INFO::Fitting model to feature number 160, map04022
+2025-01-12 14:37:24.991924 INFO::Fitting model to feature number 161, map04066
+2025-01-12 14:37:25.006241 INFO::Fitting model to feature number 162, map04068
+2025-01-12 14:37:25.026896 INFO::Fitting model to feature number 163, map04070
+2025-01-12 14:37:25.038694 INFO::Fitting model to feature number 164, map04112
+2025-01-12 14:37:25.052595 INFO::Fitting model to feature number 165, map04113
+2025-01-12 14:37:25.076184 INFO::Fitting model to feature number 166, map04115
+2025-01-12 14:37:25.105018 INFO::Fitting model to feature number 167, map04122
+2025-01-12 14:37:25.122976 INFO::Fitting model to feature number 168, map04142
+2025-01-12 14:37:25.144664 INFO::Fitting model to feature number 169, map04146
+2025-01-12 14:37:25.156232 INFO::Fitting model to feature number 170, map04152
+2025-01-12 14:37:25.170906 INFO::Fitting model to feature number 171, map04210
+2025-01-12 14:37:25.193864 INFO::Fitting model to feature number 172, map04212
+2025-01-12 14:37:25.208935 INFO::Fitting model to feature number 173, map04213
+2025-01-12 14:37:25.222887 INFO::Fitting model to feature number 174, map04214
+2025-01-12 14:37:25.247639 INFO::Fitting model to feature number 175, map04215
+2025-01-12 14:37:25.264953 INFO::Fitting model to feature number 176, map04216
+2025-01-12 14:37:25.292195 INFO::Fitting model to feature number 177, map04217
+2025-01-12 14:37:25.31279 INFO::Fitting model to feature number 178, map04380
+2025-01-12 14:37:25.326067 INFO::Fitting model to feature number 179, map04614
+2025-01-12 14:37:25.339415 INFO::Fitting model to feature number 180, map04621
+2025-01-12 14:37:25.358774 INFO::Fitting model to feature number 181, map04626
+2025-01-12 14:37:25.373974 INFO::Fitting model to feature number 182, map04714
+2025-01-12 14:37:25.392525 INFO::Fitting model to feature number 183, map04724
+2025-01-12 14:37:25.41295 INFO::Fitting model to feature number 184, map04727
+2025-01-12 14:37:25.429718 INFO::Fitting model to feature number 185, map04910
+2025-01-12 14:37:25.441593 INFO::Fitting model to feature number 186, map04917
+2025-01-12 14:37:25.471695 INFO::Fitting model to feature number 187, map04918
+2025-01-12 14:37:25.48926 INFO::Fitting model to feature number 188, map04920
+2025-01-12 14:37:25.50344 INFO::Fitting model to feature number 189, map04922
+2025-01-12 14:37:25.528899 INFO::Fitting model to feature number 190, map04925
+2025-01-12 14:37:25.546229 INFO::Fitting model to feature number 191, map04931
+2025-01-12 14:37:25.560598 INFO::Fitting model to feature number 192, map04932
+2025-01-12 14:37:25.58211 INFO::Fitting model to feature number 193, map04940
+2025-01-12 14:37:25.596969 INFO::Fitting model to feature number 194, map04964
+2025-01-12 14:37:25.609211 INFO::Fitting model to feature number 195, map04974
+2025-01-12 14:37:25.629061 INFO::Fitting model to feature number 196, map05010
+2025-01-12 14:37:25.641623 INFO::Fitting model to feature number 197, map05012
+2025-01-12 14:37:25.658203 INFO::Fitting model to feature number 198, map05014
+2025-01-12 14:37:25.676774 INFO::Fitting model to feature number 199, map05016
+2025-01-12 14:37:25.689812 INFO::Fitting model to feature number 200, map05111
+2025-01-12 14:37:25.70205 INFO::Fitting model to feature number 201, map05120
+2025-01-12 14:37:25.720393 INFO::Fitting model to feature number 202, map05132
+2025-01-12 14:37:25.729814 INFO::Fitting model to feature number 203, map05133
+2025-01-12 14:37:25.74396 INFO::Fitting model to feature number 204, map05134
+2025-01-12 14:37:25.762604 INFO::Fitting model to feature number 205, map05142
+2025-01-12 14:37:25.785378 INFO::Fitting model to feature number 206, map05143
+2025-01-12 14:37:25.796037 INFO::Fitting model to feature number 207, map05145
+2025-01-12 14:37:25.81691 INFO::Fitting model to feature number 208, map05146
+2025-01-12 14:37:25.827567 INFO::Fitting model to feature number 209, map05150
+2025-01-12 14:37:25.839626 INFO::Fitting model to feature number 210, map05152
+2025-01-12 14:37:25.86312 INFO::Fitting model to feature number 211, map05161
+2025-01-12 14:37:25.877116 INFO::Fitting model to feature number 212, map05164
+2025-01-12 14:37:25.88902 INFO::Fitting model to feature number 213, map05167
+2025-01-12 14:37:25.90996 INFO::Fitting model to feature number 214, map05168
+2025-01-12 14:37:25.921912 INFO::Fitting model to feature number 215, map05169
+2025-01-12 14:37:25.932791 INFO::Fitting model to feature number 216, map05200
+2025-01-12 14:37:25.953529 INFO::Fitting model to feature number 217, map05203
+2025-01-12 14:37:25.963909 INFO::Fitting model to feature number 218, map05204
+2025-01-12 14:37:25.97733 INFO::Fitting model to feature number 219, map05205
+2025-01-12 14:37:25.995115 INFO::Fitting model to feature number 220, map05210
+2025-01-12 14:37:26.008007 INFO::Fitting model to feature number 221, map05222
+2025-01-12 14:37:26.019823 INFO::Fitting model to feature number 222, map05225
+2025-01-12 14:37:26.038472 INFO::Fitting model to feature number 223, map05230
+2025-01-12 14:37:26.048542 INFO::Fitting model to feature number 224, map05323
+2025-01-12 14:37:26.060459 INFO::Fitting model to feature number 225, map05416
+2025-01-12 14:37:26.078811 INFO::Fitting model to feature number 226, map05418
+2025-01-12 14:37:26.091319 INFO::Fitting model to feature number 227, map00196
+2025-01-12 14:37:26.104032 INFO::Fitting model to feature number 228, map00472
+2025-01-12 14:37:26.123439 INFO::Fitting model to feature number 229, map00524
+2025-01-12 14:37:26.134276 INFO::Fitting model to feature number 230, map00565
+2025-01-12 14:37:26.144267 INFO::Fitting model to feature number 231, map00592
+2025-01-12 14:37:26.162271 INFO::Fitting model to feature number 232, map00901
+2025-01-12 14:37:26.1734 INFO::Fitting model to feature number 233, map00906
+2025-01-12 14:37:26.181926 INFO::Fitting model to feature number 234, map00965
+2025-01-12 14:37:26.203149 INFO::Fitting model to feature number 235, map01053
+2025-01-12 14:37:26.21274 INFO::Fitting model to feature number 236, map01062
+2025-01-12 14:37:26.224264 INFO::Fitting model to feature number 237, map04013
+2025-01-12 14:37:26.244506 INFO::Fitting model to feature number 238, map04072
+2025-01-12 14:37:26.259822 INFO::Fitting model to feature number 239, map04138
+2025-01-12 14:37:26.27095 INFO::Fitting model to feature number 240, map04141
+2025-01-12 14:37:26.288533 INFO::Fitting model to feature number 241, map04151
+2025-01-12 14:37:26.297712 INFO::Fitting model to feature number 242, map04211
+2025-01-12 14:37:26.309841 INFO::Fitting model to feature number 243, map04260
+2025-01-12 14:37:26.326706 INFO::Fitting model to feature number 244, map04612
+2025-01-12 14:37:26.339791 INFO::Fitting model to feature number 245, map04657
+2025-01-12 14:37:26.352221 INFO::Fitting model to feature number 246, map04659
+2025-01-12 14:37:26.373219 INFO::Fitting model to feature number 247, map04721
+2025-01-12 14:37:26.387285 INFO::Fitting model to feature number 248, map04726
+2025-01-12 14:37:26.405352 INFO::Fitting model to feature number 249, map04728
+2025-01-12 14:37:26.461736 INFO::Fitting model to feature number 250, map04911
+2025-01-12 14:37:26.477684 INFO::Fitting model to feature number 251, map04914
+2025-01-12 14:37:26.507491 INFO::Fitting model to feature number 252, map04915
+2025-01-12 14:37:26.53676 INFO::Fitting model to feature number 253, map04930
+2025-01-12 14:37:26.545477 INFO::Fitting model to feature number 254, map04934
+2025-01-12 14:37:26.557842 INFO::Fitting model to feature number 255, map04962
+2025-01-12 14:37:26.593572 INFO::Fitting model to feature number 256, map04973
+2025-01-12 14:37:26.608575 INFO::Fitting model to feature number 257, map05020
+2025-01-12 14:37:26.623266 INFO::Fitting model to feature number 258, map05030
+2025-01-12 14:37:26.642625 INFO::Fitting model to feature number 259, map05031
+2025-01-12 14:37:26.656731 INFO::Fitting model to feature number 260, map05034
+2025-01-12 14:37:26.668894 INFO::Fitting model to feature number 261, map05100
+2025-01-12 14:37:26.686014 INFO::Fitting model to feature number 262, map05165
+2025-01-12 14:37:26.69524 INFO::Fitting model to feature number 263, map05211
+2025-01-12 14:37:26.706434 INFO::Fitting model to feature number 264, map05215
+2025-01-12 14:37:26.725555 INFO::Fitting model to feature number 265, map05231
+2025-01-12 14:37:26.73733 INFO::Fitting model to feature number 266, map05340
+2025-01-12 14:37:26.746629 INFO::Fitting model to feature number 267, map00120
+2025-01-12 14:37:26.764823 INFO::Fitting model to feature number 268, map00121
+2025-01-12 14:37:26.776639 INFO::Fitting model to feature number 269, map00513
+2025-01-12 14:37:26.787769 INFO::Fitting model to feature number 270, map00514
+2025-01-12 14:37:26.805614 INFO::Fitting model to feature number 271, map00515
+2025-01-12 14:37:26.817845 INFO::Fitting model to feature number 272, map00603
+2025-01-12 14:37:26.82726 INFO::Fitting model to feature number 273, map00941
+2025-01-12 14:37:26.843757 INFO::Fitting model to feature number 274, map00945
+2025-01-12 14:37:26.855522 INFO::Fitting model to feature number 275, map01054
+2025-01-12 14:37:26.867912 INFO::Fitting model to feature number 276, map04080
+2025-01-12 14:37:26.885091 INFO::Fitting model to feature number 277, map04924
+2025-01-12 14:37:26.89393 INFO::Fitting model to feature number 278, map04976
+2025-01-12 14:37:26.905461 INFO::Fitting model to feature number 279, map04979
+2025-01-12 14:37:26.923703 INFO::Fitting model to feature number 280, map05166
+2025-01-12 14:37:26.935771 INFO::Fitting model to feature number 281, map05219
+2025-01-12 14:37:26.944483 INFO::Fitting model to feature number 282, map05410
+2025-01-12 14:37:26.961367 INFO::Fitting model to feature number 283, map00404
+2025-01-12 14:37:26.97373 INFO::Fitting model to feature number 284, map01057
+2025-01-12 14:37:26.985793 INFO::Fitting model to feature number 285, map04011
+2025-01-12 14:37:27.00216 INFO::Fitting model to feature number 286, map04014
+2025-01-12 14:37:27.01119 INFO::Fitting model to feature number 287, map04020
+2025-01-12 14:37:27.023891 INFO::Fitting model to feature number 288, map04024
+2025-01-12 14:37:27.040965 INFO::Fitting model to feature number 289, map04071
+2025-01-12 14:37:27.055132 INFO::Fitting model to feature number 290, map04111
+2025-01-12 14:37:27.069156 INFO::Fitting model to feature number 291, map04144
+2025-01-12 14:37:27.088218 INFO::Fitting model to feature number 292, map04666
+2025-01-12 14:37:27.097294 INFO::Fitting model to feature number 293, map04723
+2025-01-12 14:37:27.109788 INFO::Fitting model to feature number 294, map04912
+2025-01-12 14:37:27.126526 INFO::Fitting model to feature number 295, map04919
+2025-01-12 14:37:27.140034 INFO::Fitting model to feature number 296, map05206
+2025-01-12 14:37:27.149213 INFO::Fitting model to feature number 297, map03015
+2025-01-12 14:37:27.257452 INFO::Counting total values for each feature
+2025-01-12 14:37:27.312616 INFO::Writing filtered data to file Maaslin2_chromosome_pathways_cpm_test4/features/filtered_data.tsv
+2025-01-12 14:37:27.355357 INFO::Writing filtered, normalized data to file Maaslin2_chromosome_pathways_cpm_test4/features/filtered_data_norm.tsv
+2025-01-12 14:37:27.398115 INFO::Writing filtered, normalized, transformed data to file Maaslin2_chromosome_pathways_cpm_test4/features/filtered_data_norm_transformed.tsv
+2025-01-12 14:37:27.445461 WARNING::Deleting existing residuals file: Maaslin2_chromosome_pathways_cpm_test4/fits/residuals.rds
+2025-01-12 14:37:27.456225 INFO::Writing residuals to file Maaslin2_chromosome_pathways_cpm_test4/fits/residuals.rds
+2025-01-12 14:37:27.468713 WARNING::Deleting existing fitted file: Maaslin2_chromosome_pathways_cpm_test4/fits/fitted.rds
+2025-01-12 14:37:27.475985 INFO::Writing fitted values to file Maaslin2_chromosome_pathways_cpm_test4/fits/fitted.rds
+2025-01-12 14:37:27.487219 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_chromosome_pathways_cpm_test4/all_results.tsv
+2025-01-12 14:37:27.523443 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_chromosome_pathways_cpm_test4/significant_results.tsv
+2025-01-12 14:37:27.530288 INFO::Writing heatmap of significant results to file: Maaslin2_chromosome_pathways_cpm_test4/heatmap.pdf
+2025-01-12 14:37:27.544951 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_chromosome_pathways_cpm_test4
+2025-01-12 14:37:27.559418 INFO::Plotting associations from most to least significant, grouped by metadata
+2025-01-12 14:37:27.565316 INFO::Plotting data for metadata number 1, name
+2025-01-12 14:37:27.575772 INFO::Creating boxplot for categorical data, name vs map00590
+2025-01-12 14:37:27.942998 INFO::Creating boxplot for categorical data, name vs map02026

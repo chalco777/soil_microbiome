@@ -1,0 +1,130 @@
+2025-01-07 09:22:52.609828 INFO::Writing function arguments to log file
+2025-01-07 09:22:52.614941 DEBUG::Function arguments
+2025-01-07 09:22:52.61662 DEBUG::Output folder: Maaslin2_plasmid_pathways
+2025-01-07 09:22:52.618246 DEBUG::Min Abundance: 0.000000
+2025-01-07 09:22:52.619496 DEBUG::Min Prevalence: 0.200000
+2025-01-07 09:22:52.620704 DEBUG::Normalization: TSS
+2025-01-07 09:22:52.621911 DEBUG::Transform: LOG
+2025-01-07 09:22:52.623128 DEBUG::Analysis method: LM
+2025-01-07 09:22:52.624675 DEBUG::Max significance: 0.250000
+2025-01-07 09:22:52.626168 DEBUG::Random effects:
+2025-01-07 09:22:52.627532 DEBUG::Fixed effects: name
+2025-01-07 09:22:52.62885 DEBUG::Correction method: BH
+2025-01-07 09:22:52.630168 DEBUG::Standardize: TRUE
+2025-01-07 09:22:52.631726 DEBUG::Cores: 1
+2025-01-07 09:22:52.63301 INFO::Verifying options selected are valid
+2025-01-07 09:22:52.636267 INFO::Determining format of input files
+2025-01-07 09:22:52.639389 INFO::Input format is data samples as rows and metadata samples as rows
+2025-01-07 09:22:52.643809 DEBUG::A total of 13 samples were found in both the data and metadata
+2025-01-07 09:22:52.645209 DEBUG::Reordering data/metadata to use same sample ordering
+2025-01-07 09:22:52.64838 INFO::Formula for fixed effects: expr ~  name
+2025-01-07 09:22:52.651768 INFO::Filter data based on min abundance and min prevalence
+2025-01-07 09:22:52.654898 INFO::Total samples in data: 13
+2025-01-07 09:22:52.65889 INFO::Min samples required with min abundance for a feature not to be filtered: 2.600000
+2025-01-07 09:22:52.665853 INFO::Total filtered features: 103
+2025-01-07 09:22:52.668862 INFO::Filtered feature names from abundance and prevalence filtering: map00550, map00561, map00950, map00982, map03018, map03420, map04122, map04141, map04151, map04217, map04612, map04621, map04626, map04657, map04659, map04726, map04728, map04914, map04915, map05030, map05031, map05034, map05200, map05215, map05418, map00120, map00121, map00790, map02026, map02040, map03030, map05133, map00051, map00052, map00281, map00310, map00400, map00410, map00710, map00730, map00740, map00900, map00903, map01501, map03060, map03450, map00521, map00540, map04070, map04930, map05165, map05203, map00195, map00430, map01052, map04013, map04068, map04115, map04210, map04211, map04212, map04214, map04215, map04932, map05010, map05012, map05014, map05016, map05145, map05152, map05161, map05164, map05167, map05168, map05210, map05222, map05416, map00460, map00625, map00626, map00830, map00980, map00590, map04918, map04978, map04016, map00261, map01059, map04976, map05204, map00791, map01053, map01523, map04152, map00072, map00401, map00500, map00592, map00642, map00960, map04216, map04714, map04920
+2025-01-07 09:22:52.674425 INFO::Total filtered features with variance filtering: 0
+2025-01-07 09:22:52.677394 INFO::Filtered feature names from variance filtering:
+2025-01-07 09:22:52.680192 INFO::Running selected normalization method: TSS
+2025-01-07 09:22:52.685018 INFO::Applying z-score to standardize continuous metadata
+2025-01-07 09:22:52.69162 INFO::Running selected transform method: LOG
+2025-01-07 09:22:52.696096 INFO::Running selected analysis method: LM
+2025-01-07 09:22:52.702173 INFO::Fitting model to feature number 1, map00010
+2025-01-07 09:22:52.712418 INFO::Fitting model to feature number 2, map00030
+2025-01-07 09:22:52.723015 INFO::Fitting model to feature number 3, map00071
+2025-01-07 09:22:52.732403 INFO::Fitting model to feature number 4, map00190
+2025-01-07 09:22:52.741172 INFO::Fitting model to feature number 5, map00260
+2025-01-07 09:22:52.750251 INFO::Fitting model to feature number 6, map00330
+2025-01-07 09:22:52.758975 INFO::Fitting model to feature number 7, map00340
+2025-01-07 09:22:52.768443 INFO::Fitting model to feature number 8, map00350
+2025-01-07 09:22:52.778012 INFO::Fitting model to feature number 9, map00360
+2025-01-07 09:22:52.786062 INFO::Fitting model to feature number 10, map00361
+2025-01-07 09:22:52.794949 INFO::Fitting model to feature number 11, map00362
+2025-01-07 09:22:52.803208 INFO::Fitting model to feature number 12, map00380
+2025-01-07 09:22:52.812418 INFO::Fitting model to feature number 13, map00621
+2025-01-07 09:22:52.820403 INFO::Fitting model to feature number 14, map00622
+2025-01-07 09:22:52.828754 INFO::Fitting model to feature number 15, map00623
+2025-01-07 09:22:52.837723 INFO::Fitting model to feature number 16, map00643
+2025-01-07 09:22:52.846004 INFO::Fitting model to feature number 17, map00680
+2025-01-07 09:22:52.854316 INFO::Fitting model to feature number 18, map01100
+2025-01-07 09:22:52.862648 INFO::Fitting model to feature number 19, map01110
+2025-01-07 09:22:52.870551 INFO::Fitting model to feature number 20, map01120
+2025-01-07 09:22:52.879872 INFO::Fitting model to feature number 21, map01130
+2025-01-07 09:22:52.887655 INFO::Fitting model to feature number 22, map01200
+2025-01-07 09:22:52.896204 INFO::Fitting model to feature number 23, map01220
+2025-01-07 09:22:52.90434 INFO::Fitting model to feature number 24, map01230
+2025-01-07 09:22:52.914238 INFO::Fitting model to feature number 25, map02010
+2025-01-07 09:22:52.922676 INFO::Fitting model to feature number 26, map02024
+2025-01-07 09:22:52.931259 INFO::Fitting model to feature number 27, map03070
+2025-01-07 09:22:52.941153 INFO::Fitting model to feature number 28, map03430
+2025-01-07 09:22:52.950444 INFO::Fitting model to feature number 29, map04066
+2025-01-07 09:22:52.961161 INFO::Fitting model to feature number 30, map05134
+2025-01-07 09:22:52.969411 INFO::Fitting model to feature number 31, map00061
+2025-01-07 09:22:52.978613 INFO::Fitting model to feature number 32, map00230
+2025-01-07 09:22:52.989383 INFO::Fitting model to feature number 33, map00240
+2025-01-07 09:22:53.003752 INFO::Fitting model to feature number 34, map00280
+2025-01-07 09:22:53.013873 INFO::Fitting model to feature number 35, map00750
+2025-01-07 09:22:53.022932 INFO::Fitting model to feature number 36, map00780
+2025-01-07 09:22:53.032248 INFO::Fitting model to feature number 37, map00910
+2025-01-07 09:22:53.041376 INFO::Fitting model to feature number 38, map00983
+2025-01-07 09:22:53.049674 INFO::Fitting model to feature number 39, map01212
+2025-01-07 09:22:53.060298 INFO::Fitting model to feature number 40, map02020
+2025-01-07 09:22:53.06969 INFO::Fitting model to feature number 41, map02025
+2025-01-07 09:22:53.080166 INFO::Fitting model to feature number 42, map03440
+2025-01-07 09:22:53.0941 INFO::Fitting model to feature number 43, map04113
+2025-01-07 09:22:53.103514 INFO::Fitting model to feature number 44, map04213
+2025-01-07 09:22:53.112455 INFO::Fitting model to feature number 45, map00020
+2025-01-07 09:22:53.120891 INFO::Fitting model to feature number 46, map00040
+2025-01-07 09:22:53.130904 INFO::Fitting model to feature number 47, map00130
+2025-01-07 09:22:53.141063 INFO::Fitting model to feature number 48, map00220
+2025-01-07 09:22:53.149661 INFO::Fitting model to feature number 49, map00250
+2025-01-07 09:22:53.243633 INFO::Fitting model to feature number 50, map00270
+2025-01-07 09:22:53.334006 INFO::Fitting model to feature number 51, map00290
+2025-01-07 09:22:53.469266 INFO::Fitting model to feature number 52, map00300
+2025-01-07 09:22:53.817506 INFO::Fitting model to feature number 53, map00520
+2025-01-07 09:22:53.938888 INFO::Fitting model to feature number 54, map00562
+2025-01-07 09:22:54.048134 INFO::Fitting model to feature number 55, map00620
+2025-01-07 09:22:54.126892 INFO::Fitting model to feature number 56, map00627
+2025-01-07 09:22:54.224328 INFO::Fitting model to feature number 57, map00640
+2025-01-07 09:22:54.314092 INFO::Fitting model to feature number 58, map00650
+2025-01-07 09:22:54.381658 INFO::Fitting model to feature number 59, map00760
+2025-01-07 09:22:54.453543 INFO::Fitting model to feature number 60, map00770
+2025-01-07 09:22:54.539074 INFO::Fitting model to feature number 61, map00930
+2025-01-07 09:22:54.616217 INFO::Fitting model to feature number 62, map01210
+2025-01-07 09:22:54.628823 INFO::Fitting model to feature number 63, map01503
+2025-01-07 09:22:54.637128 INFO::Fitting model to feature number 64, map02030
+2025-01-07 09:22:54.646449 INFO::Fitting model to feature number 65, map03320
+2025-01-07 09:22:54.654383 INFO::Fitting model to feature number 66, map03410
+2025-01-07 09:22:54.662302 INFO::Fitting model to feature number 67, map04922
+2025-01-07 09:22:54.674254 INFO::Fitting model to feature number 68, map05111
+2025-01-07 09:22:54.685219 INFO::Fitting model to feature number 69, map05230
+2025-01-07 09:22:54.694895 INFO::Fitting model to feature number 70, map00053
+2025-01-07 09:22:54.703451 INFO::Fitting model to feature number 71, map00364
+2025-01-07 09:22:54.712478 INFO::Fitting model to feature number 72, map00564
+2025-01-07 09:22:54.720421 INFO::Fitting model to feature number 73, map00624
+2025-01-07 09:22:54.729633 INFO::Fitting model to feature number 74, map00630
+2025-01-07 09:22:54.737857 INFO::Fitting model to feature number 75, map00660
+2025-01-07 09:22:54.746565 INFO::Fitting model to feature number 76, map00670
+2025-01-07 09:22:54.760018 INFO::Fitting model to feature number 77, map00720
+2025-01-07 09:22:54.768265 INFO::Fitting model to feature number 78, map00970
+2025-01-07 09:22:54.777372 INFO::Fitting model to feature number 79, map04112
+2025-01-07 09:22:54.788015 INFO::Fitting model to feature number 80, map04146
+2025-01-07 09:22:54.797768 INFO::Fitting model to feature number 81, map00480
+2025-01-07 09:22:54.808084 INFO::Fitting model to feature number 82, map00860
+2025-01-07 09:22:54.816649 INFO::Fitting model to feature number 83, map00920
+2025-01-07 09:22:54.825602 INFO::Fitting model to feature number 84, map01524
+2025-01-07 09:22:54.835589 INFO::Fitting model to feature number 85, map00333
+2025-01-07 09:22:54.844 INFO::Fitting model to feature number 86, map00450
+2025-01-07 09:22:54.852154 INFO::Fitting model to feature number 87, map01040
+2025-01-07 09:22:54.883811 INFO::Counting total values for each feature
+2025-01-07 09:22:54.897884 INFO::Writing filtered data to file Maaslin2_plasmid_pathways/features/filtered_data.tsv
+2025-01-07 09:22:54.904529 INFO::Writing filtered, normalized data to file Maaslin2_plasmid_pathways/features/filtered_data_norm.tsv
+2025-01-07 09:22:54.913579 INFO::Writing filtered, normalized, transformed data to file Maaslin2_plasmid_pathways/features/filtered_data_norm_transformed.tsv
+2025-01-07 09:22:54.924477 WARNING::Deleting existing residuals file: Maaslin2_plasmid_pathways/fits/residuals.rds
+2025-01-07 09:22:54.93008 INFO::Writing residuals to file Maaslin2_plasmid_pathways/fits/residuals.rds
+2025-01-07 09:22:54.93501 WARNING::Deleting existing fitted file: Maaslin2_plasmid_pathways/fits/fitted.rds
+2025-01-07 09:22:54.940813 INFO::Writing fitted values to file Maaslin2_plasmid_pathways/fits/fitted.rds
+2025-01-07 09:22:54.944954 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_plasmid_pathways/all_results.tsv
+2025-01-07 09:22:54.955323 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_plasmid_pathways/significant_results.tsv
+2025-01-07 09:22:54.959546 INFO::Writing heatmap of significant results to file: Maaslin2_plasmid_pathways/heatmap.pdf
+2025-01-07 09:22:54.96556 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_plasmid_pathways

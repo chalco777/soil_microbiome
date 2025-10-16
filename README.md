@@ -113,3 +113,9 @@ While absolute paths in the scripts point to the original analyst’s workstatio
 
 ## Citation
 If you use these workflows, please cite the relevant software (MaAsLin2, EggNOG-mapper, mosdepth, vegan) and acknowledge the project contributors.
+## Citation
+If you use these workflows, please cite the relevant software and acknowledge the project contributors:
+- [MaAsLin2](https://github.com/biobakery/Maaslin2) - Multivariate association discovery in population-scale meta-omics studies
+- [EggNOG-mapper](https://github.com/eggnogdb/eggnog-mapper) - Fast genome-wide functional annotation through orthology assignment
+- [mosdepth](https://github.com/brentp/mosdepth) - Fast BAM/CRAM depth calculation for WGS, exome, or targeted sequencing
+- [vegan](https://github.com/vegandevs/vegan) - Community ecology package for ordination methods, diversity analysis, and other tools

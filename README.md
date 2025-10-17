@@ -3,7 +3,7 @@
 
 This repository gathers multiple exploratory and inferential analyses performed on plasmid, viral, and chromosomal fractions recovered from soil metagenomes. Each folder contains self-contained scripts, intermediate tables, and figures that document the statistical pipelines used to quantify abundance patterns, run differential models, and visualize beta diversity.
 
-> ⚠️ **IMPORTANT:** **Refer to each folder for all the figures and the Markdown document with detailed descriptions** of the statistical analyses and the procedures implemented.
+> ⚠️ **IMPORTANT:** **Refer to each folder for all the figures and the Markdown document with detailed descriptions of the statistical analyses and the procedures implemented.**
 
 ## Repository Overview
 
